@@ -1,4 +1,5 @@
 ///<reference path='result.ts'/>
+///<reference path='game.ts'/>
 
 class Scoreboard {
 private results: Result[] = [];
@@ -6,7 +7,7 @@ addResult(newResult: Result): void {
     this.results.push( newResult);
 }
 
-updateSocreboard(): void {
+updateScoreboard(): void {
     let output: string = `<h2>Scoreboard</h2>`;
 
     for (let index =0; index<this.results.length; index++){

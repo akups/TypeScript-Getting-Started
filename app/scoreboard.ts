@@ -1,7 +1,7 @@
-///<reference path='result.ts'/>
-///<reference path='game.ts'/>
+import { Result } from "./result";
 
-class Scoreboard {
+
+export class Scoreboard {
 private results: Result[] = [];
 addResult(newResult: Result): void {
     this.results.push( newResult);

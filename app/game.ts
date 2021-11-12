@@ -26,7 +26,7 @@ const gameElement: HTMLElement =document.getElementById('game')!;
 gameElement.innerHTML =gameForm
 
 //enable calculate score button
-document. getElementById('calculate')!.removeAttribute('disable')
+document. getElementById('calculate')!.removeAttribute('disabled')
  }
 
  calculateScore(): void {
